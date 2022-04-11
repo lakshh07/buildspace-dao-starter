@@ -4,9 +4,33 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  /* background-color: #7700ee; */
+  animation: bgcolor infinite 15s;
   color: #fff;
   overflow-x: hidden;
+}
+@keyframes bgcolor{
+  0%{
+      background-color: #7700ee;
+  }
+  20%{
+      background-color: #2980b9;
+  }
+  30%{
+      background-color: #00d2d3;
+  }
+  40%{
+      background-color: #f1c40f;
+  }
+  60%{
+      background-color: #0097e6;
+  }
+  80%{
+      background-color: #34495e;
+  }
+  100%{
+      background-color:#2ecc71;
+  }
 }
 #root {
   min-height: 100vh;
